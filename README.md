@@ -164,14 +164,16 @@ python dashboard_app.py
 - Age demographic breakdown
 
 ### 3. Anomaly Detection
----
+
 | Method               | Purpose                              |
 | -------------------- | ------------------------------------ | --- | ---- |
 | **Z-Score**          | Statistical outliers (               | Z   | > 3) |
 | **Isolation Forest** | ML-based multi-dimensional anomalies |
 | **Rolling Window**   | Time-series spikes and drops         |
 | **Geographic**       | Under/over-performing regions        |
+
 ---
+
 ### 4. Visualization
 
 - Interactive Dash dashboard with:
