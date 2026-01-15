@@ -165,12 +165,12 @@ python dashboard_app.py
 
 ### 3. Anomaly Detection
 
-| Method               | Purpose                              |
-| -------------------- | ------------------------------------ | --- | ---- |
-| **Z-Score**          | Statistical outliers (               | Z   | > 3) |
-| **Isolation Forest** | ML-based multi-dimensional anomalies |
-| **Rolling Window**   | Time-series spikes and drops         |
-| **Geographic**       | Under/over-performing regions        |
+| Method               | Purpose                               |
+| -------------------- | ------------------------------------- |
+| **Z-Score**          | Statistical outliers (absolute Z > 3) |
+| **Isolation Forest** | ML-based multi-dimensional anomalies  |
+| **Rolling Window**   | Time-series spikes and drops          |
+| **Geographic**       | Under/over-performing regions         |
 
 ---
 
