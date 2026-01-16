@@ -172,6 +172,8 @@ python dashboard_app.py
 | **Rolling Window**   | Time-series spikes and drops          |
 | **Geographic**       | Under/over-performing regions         |
 
+---
+
 ### 4. Visualization
 
 - Interactive Dash dashboard with:
