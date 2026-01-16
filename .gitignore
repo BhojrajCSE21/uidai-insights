@@ -62,3 +62,4 @@ data/outputs/powerbi_exports/*.csv
 data/outputs/*.csv
 data/processed/*.csv
 
+.env.example
