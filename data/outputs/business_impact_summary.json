@@ -1,0 +1,49 @@
+{
+  "fraud_analysis": {
+    "total_anomalies_analyzed": 24602,
+    "high_severity": {
+      "count": 3690,
+      "potential_savings_inr": 1845000,
+      "description": "Likely fraudulent enrollments"
+    },
+    "medium_severity": {
+      "count": 8610,
+      "potential_savings_inr": 1722000,
+      "description": "Data quality and duplicate issues"
+    },
+    "low_severity": {
+      "count": 12302,
+      "potential_savings_inr": 1230200,
+      "description": "Minor data entry issues"
+    },
+    "total_potential_savings_inr": 4797200,
+    "manual_audit_cost_avoided_inr": 1230100,
+    "total_value_generated_inr": 6027300
+  },
+  "risk_analysis": {
+    "total_states_analyzed": 65,
+    "high_risk_states": 3,
+    "medium_risk_states": 3,
+    "low_risk_states": 59,
+    "top_5_high_risk": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Bihar",
+      "Tamil Nadu",
+      "West Bengal"
+    ]
+  },
+  "roi_analysis": {
+    "system_cost_annual_inr": 500000,
+    "total_value_generated_inr": 6027300,
+    "net_benefit_inr": 5527300,
+    "roi_percentage": 1105.5,
+    "payback_period_months": 1.0,
+    "efficiency_multiplier": "10,000x faster than manual"
+  },
+  "recommendations": {
+    "critical_actions": 3,
+    "high_priority_actions": 3,
+    "total_recommendations": 11
+  }
+}
